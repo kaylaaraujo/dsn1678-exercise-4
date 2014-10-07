@@ -57,6 +57,9 @@ section {
 .ship-4 {
 	width: 175px;
 	display: inline-block;
+	opacity: 0;
+	transform: translateY(100px);
+
 }
 
 .js-ships-1-3 {
@@ -64,7 +67,8 @@ section {
 }
 
 .js-ships-2-4 {
-	-webkit-animation: ships-2-4 1s linear forwards;	
+	-webkit-animation: ships-2-4 1s linear forwards;
+	-webkit-animation-delay: 200ms;	
 }
 
 @-webkit-keyframes dipper-fade {
